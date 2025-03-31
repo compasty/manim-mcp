@@ -5,7 +5,7 @@ description = "Manim integration through the Model Context Protocol"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [
-    {name = "compasty", email = "compasty@example.com"}
+    {name = "compasty", email = "compasty@gmail.com"}
 ]
 license = {text = "MIT"}
 dependencies = [
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-blender-mcp = "blender_mcp.server:main"
+blender-mcp = "manim_mcp.server:main"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]

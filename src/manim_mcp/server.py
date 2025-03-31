@@ -19,7 +19,7 @@ logger = logging.getLogger("ManimMCPServer")
 # Create the MCP server with lifespan support
 mcp = FastMCP(
     "ManimMCP",
-    description="Blender integration through the Model Context Protocol"
+    description="Manim integration through the Model Context Protocol"
 )
 
 @mcp.tool()
